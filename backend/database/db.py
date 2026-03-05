@@ -4,7 +4,7 @@ import mysql.connector
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="felix55",   
+    password="felix55"
 )
 
 cursor = conn.cursor()
@@ -26,7 +26,24 @@ CREATE TABLE IF NOT EXISTS users (
 )
 """)
 
-print("Database and table created successfully!")
+
+# Workflows table
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS workflows (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_id BIGINT,
+    prompt TEXT,
+    trigger_type VARCHAR(100),
+    ai_step VARCHAR(100),
+    action_type VARCHAR(100),
+    status VARCHAR(50) DEFAULT 'active',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+""")
+
+
+print("Database and tables created successfully!")
+
 
 conn.commit()
 cursor.close()
