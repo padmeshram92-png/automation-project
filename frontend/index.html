@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workflow Automation Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🤖 Automation Workflow Builder</h1>
+                <p class="subtitle">Create intelligent workflows with natural language</p>
+            </div>
+            <div class="api-status">
+                <span id="api-status-indicator" class="status-dot disconnected"></span>
+                <span id="api-status-text">Checking...</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Left Panel: Input Section -->
+            <section class="left-panel">
+                <div class="section-card">
+                    <h2>Create Workflow</h2>
+                    <div id="prompt-input-component"></div>
+                </div>
+
+                <!-- Examples Section -->
+                <div class="section-card examples-card">
+                    <h3>💡 Try These Examples</h3>
+                    <div class="examples-list">
+                        <button class="example-btn" onclick="setExample('Send email when new orders arrive')">
+                            📧 Email on Order
+                        </button>
+                        <button class="example-btn" onclick="setExample('Classify incoming emails and save summaries to database')">
+                            📂 Classify & Save
+                        </button>
+                        <button class="example-btn" onclick="setExample('Summarize customer feedback and call API to store results')">
+                            📊 Summarize & API
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Panel: Workflow Display -->
+            <section class="right-panel">
+                <!-- Workflow Preview -->
+                <div class="section-card workflow-card">
+                    <h2>🔄 Generated Workflow</h2>
+                    <div id="workflow-container" class="workflow-container">
+                        <div class="empty-state">
+                            <p>👆 Generate a workflow to see preview</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Workflow Details -->
+                <div class="section-card details-card">
+                    <h2>⚙️ Workflow Details</h2>
+                    <div id="details-container" class="details-container">
+                        <div class="empty-state">
+                            <p>No workflow generated yet</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="button-group">
+                    <button id="save-btn" class="btn btn-success" style="display: none;">
+                        💾 Save Workflow
+                    </button>
+                    <button id="run-btn" class="btn btn-warning" style="display: none;">
+                        ▶️ Run Workflow
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Workflows List Section -->
+        <section class="workflows-section">
+            <div class="section-card">
+                <h2>📚 Saved Workflows</h2>
+                <div id="workflows-list" class="workflows-grid">
+                    <div class="empty-state">
+                        <p>No saved workflows yet</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admin Section -->
+        <section class="admin-section">
+            <div class="section-card">
+                <h2>⚙️ Admin Controls</h2>
+                <p class="section-description">Manage API keys, integrations, and scheduled workflows</p>
+
+                <!-- API Keys Management -->
+                <div class="admin-panel">
+                    <h3>🔑 API Keys</h3>
+                    <div class="input-group">
+                        <label for="api-key-name">Key Name</label>
+                        <input type="text" id="api-key-name" placeholder="e.g., email_sender, openai_api_key">
+                    </div>
+                    <div class="input-group">
+                        <label for="api-key-value">Key Value</label>
+                        <input type="password" id="api-key-value" placeholder="Enter API key value">
+                    </div>
+                    <div class="button-group">
+                        <button id="set-api-key-btn" class="btn btn-primary">Set API Key</button>
+                        <button id="list-api-keys-btn" class="btn btn-secondary">List Keys</button>
+                    </div>
+                    <div id="api-keys-list" class="api-keys-list" style="display: none;"></div>
+                </div>
+                <div class="api-keys-section">
+
+
+</div>
+
+                <!-- Integration Configuration -->
+                <div class="admin-panel">
+                    <h3>🔗 Integrations</h3>
+
+                    <!-- Email Integration -->
+                    <div class="integration-config">
+                        <h4>📧 Email Integration</h4>
+                        <div class="input-group">
+                            <label for="email-sender">Sender Email</label>
+                            <input type="email" id="email-sender" placeholder="your.email@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label for="email-password">App Password</label>
+                            <input type="password" id="email-password" placeholder="Google App Password">
+                        </div>
+                        <div class="button-group">
+                            <button id="configure-email-btn" class="btn btn-primary">Configure Email</button>
+                            <button id="test-email-btn" class="btn btn-secondary">Test Email</button>
+                        </div>
+                    </div>
+
+                    <!-- API Integration -->
+                    <div class="integration-config">
+                        <h4>🌐 API Integration</h4>
+                        <div class="input-group">
+                            <label for="api-name">API Name</label>
+                            <input type="text" id="api-name" placeholder="e.g., openai, slack">
+                        </div>
+                        <div class="input-group">
+                            <label for="api-key">API Key</label>
+                            <input type="password" id="api-key" placeholder="API key">
+                        </div>
+                        <div class="input-group">
+                            <label for="api-base-url">Base URL (optional)</label>
+                            <input type="url" id="api-base-url" placeholder="https://api.example.com">
+                        </div>
+                        <div class="button-group">
+                            <button id="configure-api-btn" class="btn btn-primary">Configure API</button>
+                            <button id="test-api-btn" class="btn btn-secondary">Test API</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Workflow Scheduling -->
+                <div class="admin-panel">
+                    <h3>⏰ Workflow Scheduling</h3>
+                    <div class="input-group">
+                        <label for="schedule-workflow-id">Workflow ID</label>
+                        <input type="text" id="schedule-workflow-id" placeholder="workflow_123">
+                    </div>
+                    <div class="input-group">
+                        <label for="schedule-type">Schedule Type</label>
+                        <select id="schedule-type">
+                            <option value="interval">Interval (seconds)</option>
+                            <option value="cron">Cron Expression</option>
+                            <option value="once">Run Once</option>
+                        </select>
+                    </div>
+                    <div class="input-group" id="interval-group">
+                        <label for="interval-seconds">Interval (seconds)</label>
+                        <input type="number" id="interval-seconds" placeholder="300" min="10">
+                    </div>
+                    <div class="input-group" id="cron-group" style="display: none;">
+                        <label for="cron-expression">Cron Expression</label>
+                        <input type="text" id="cron-expression" placeholder="0 */5 * * * *" title="Minute Hour Day Month DayOfWeek">
+                    </div>
+                    <div class="input-group" id="once-group" style="display: none;">
+                        <label for="run-at">Run At (ISO datetime)</label>
+                        <input type="datetime-local" id="run-at">
+                    </div>
+                    <div class="button-group">
+                        <button id="schedule-workflow-btn" class="btn btn-primary">Schedule Workflow</button>
+                        <button id="list-scheduled-btn" class="btn btn-secondary">List Scheduled</button>
+                    </div>
+                    <div id="scheduled-workflows-list" class="scheduled-list" style="display: none;"></div>
+                </div>
+
+                <!-- System Status -->
+                <div class="admin-panel">
+                    <h3>📊 System Status</h3>
+                    <div class="button-group">
+                        <button id="system-status-btn" class="btn btn-info">Check Status</button>
+                    </div>
+                    <div id="system-status-display" class="system-status" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="loading-spinner" style="display: none;">
+        <div class="spinner"></div>
+        <p>Generating workflow...</p>
+    </div>
+
+    <!-- Modal for Workflow Details -->
+    <div id="modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Workflow Details</h2>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

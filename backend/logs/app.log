@@ -1,0 +1,666 @@
+2026-03-05 16:59:50,005 - INFO - Application startup - Automation API initialized
+2026-03-05 17:01:00,211 - INFO - Retrieving 0 workflows
+2026-03-05 17:01:02,249 - INFO - Generating workflow from prompt: Send email when new order arrives
+2026-03-05 17:01:02,249 - INFO - Workflow generated successfully: Send email when new order arrives
+2026-03-05 17:08:43,395 - INFO - Retrieving 0 workflows
+2026-03-05 17:09:12,562 - INFO - Generating workflow from prompt: create a workflow for gmail
+2026-03-05 17:09:12,562 - INFO - Workflow generated successfully: create a workflow for gmail
+2026-03-05 17:09:30,569 - INFO - Executing workflow: create a workflow for gmail
+2026-03-05 17:09:30,569 - INFO - Running workflow: create a workflow for gmail
+2026-03-05 17:09:30,578 - INFO - Trigger 'manual_trigger' condition met
+2026-03-05 17:09:30,580 - INFO - Executing action: log_data
+2026-03-05 17:09:30,580 - INFO - Logging data: id=None name='create a workflow for gmail' prompt='create a workflow for gmail' trigger=TriggerConfig(type='manual_trigger', conditions=None) ai_step=AIStepConfig(type='basic_processing', model='gpt-3.5-turbo', settings=None) action=ActionConfig(type='log_data', config=None) status='active' created_at=datetime.datetime(2026, 3, 5, 11, 39, 12, 562130) updated_at=datetime.datetime(2026, 3, 5, 11, 39, 12, 562130)
+2026-03-05 17:09:30,580 - INFO - Workflow executed successfully: {'status': 'success', 'message': 'Data logged successfully'}
+2026-03-05 17:11:49,915 - INFO - Retrieving 0 workflows
+2026-03-05 17:12:21,189 - INFO - Generating workflow from prompt: create a workflow for gmail
+2026-03-05 17:12:21,196 - INFO - Workflow generated successfully: create a workflow for gmail
+2026-03-05 17:12:25,381 - INFO - Executing workflow: create a workflow for gmail
+2026-03-05 17:12:25,381 - INFO - Running workflow: create a workflow for gmail
+2026-03-05 17:12:25,381 - INFO - Trigger 'manual_trigger' condition met
+2026-03-05 17:12:25,381 - INFO - Executing action: log_data
+2026-03-05 17:12:25,381 - INFO - Logging data: id=None name='create a workflow for gmail' prompt='create a workflow for gmail' trigger=TriggerConfig(type='manual_trigger', conditions=None) ai_step=AIStepConfig(type='basic_processing', model='gpt-3.5-turbo', settings=None) action=ActionConfig(type='log_data', config=None) status='active' created_at=datetime.datetime(2026, 3, 5, 11, 42, 21, 196140) updated_at=datetime.datetime(2026, 3, 5, 11, 42, 21, 196140)
+2026-03-05 17:12:25,381 - INFO - Workflow executed successfully: {'status': 'success', 'message': 'Data logged successfully'}
+2026-03-05 17:12:31,429 - INFO - Generating workflow from prompt: Send email when new orders arrive
+2026-03-05 17:12:31,429 - INFO - Workflow generated successfully: Send email when new orders arrive
+2026-03-05 17:12:33,445 - INFO - Generating workflow from prompt: Send email when new orders arrive
+2026-03-05 17:12:33,445 - INFO - Workflow generated successfully: Send email when new orders arrive
+2026-03-05 17:12:44,424 - INFO - Generating workflow from prompt: Summarize customer feedback and call API to store results
+2026-03-05 17:12:44,428 - INFO - Workflow generated successfully: Summarize customer feedback and call API to store 
+2026-03-05 17:12:46,628 - INFO - Generating workflow from prompt: Classify incoming emails and save summaries to database
+2026-03-05 17:12:46,629 - INFO - Workflow generated successfully: Classify incoming emails and save summaries to dat
+2026-03-05 17:16:12,295 - INFO - Application shutdown
+2026-03-05 17:30:42,599 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:30:42,599 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:30:42,601 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:30:42,601 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:30:42,640 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:30:42,642 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:30:42,642 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:30:42,643 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:30:42,765 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:30:42,766 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:30:42,766 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:30:42,766 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:30:50,279 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:30:50,279 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:30:50,279 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:30:50,279 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:30:50,279 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:30:50,295 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:30:50,295 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:30:50,295 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:30:50,305 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:30:50,305 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:30:50,305 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:30:50,305 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:11,381 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:31:11,381 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:31:11,381 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:11,381 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:34,865 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:31:34,865 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:31:34,865 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:34,865 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:34,865 - INFO - Workflow scheduler started
+2026-03-05 17:31:34,865 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:31:34,880 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:31:34,880 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:31:34,880 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:34,881 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:34,881 - INFO - Workflow scheduler started
+2026-03-05 17:31:34,881 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:31:34,881 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:31:34,881 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:31:34,881 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:34,881 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:34,881 - INFO - Workflow scheduler started
+2026-03-05 17:31:34,881 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:31:34,917 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:31:34,918 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:31:34,918 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:34,918 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:34,918 - INFO - Workflow scheduler started
+2026-03-05 17:31:34,918 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:31:41,448 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:31:41,448 - INFO - Workflow scheduler stopped
+2026-03-05 17:31:41,451 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:31:41,504 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:31:41,504 - INFO - Workflow scheduler stopped
+2026-03-05 17:31:41,504 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:31:41,504 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:31:41,504 - INFO - Workflow scheduler stopped
+2026-03-05 17:31:41,504 - INFO - Workflow scheduler stopped
+2026-03-05 17:31:41,504 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:31:41,504 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:31:42,997 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:31:42,998 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:31:42,999 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:31:42,999 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:42,999 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:42,999 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:31:42,999 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:42,999 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:42,999 - INFO - Workflow scheduler started
+2026-03-05 17:31:42,999 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:31:42,999 - INFO - Workflow scheduler started
+2026-03-05 17:31:42,999 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:31:43,003 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:31:43,003 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:31:43,003 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:31:43,003 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:43,003 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:43,003 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:31:43,003 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:43,003 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:31:43,003 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:43,003 - INFO - Workflow scheduler started
+2026-03-05 17:31:43,003 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:31:46,871 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:31:46,871 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:31:46,871 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:46,871 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:31:46,871 - INFO - Workflow scheduler started
+2026-03-05 17:31:46,871 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:32:16,628 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:32:16,628 - INFO - Workflow scheduler stopped
+2026-03-05 17:32:16,628 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:32:16,840 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:32:16,840 - INFO - Workflow scheduler stopped
+2026-03-05 17:32:16,840 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:32:16,840 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:32:16,840 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:32:16,840 - INFO - Workflow scheduler stopped
+2026-03-05 17:32:16,840 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:32:16,840 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:32:18,565 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:32:18,565 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:32:18,565 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:18,565 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:18,565 - INFO - Workflow scheduler started
+2026-03-05 17:32:18,565 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:32:18,584 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:32:18,584 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:32:18,584 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:18,584 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:18,586 - INFO - Workflow scheduler started
+2026-03-05 17:32:18,586 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:32:18,605 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:32:18,607 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:32:18,607 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:18,607 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:18,607 - INFO - Workflow scheduler started
+2026-03-05 17:32:18,607 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:32:18,612 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:32:18,613 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:32:18,613 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:32:18,614 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:18,614 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:32:18,614 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:18,614 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:18,614 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:18,614 - INFO - Workflow scheduler started
+2026-03-05 17:32:18,614 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:32:18,614 - INFO - Workflow scheduler started
+2026-03-05 17:32:18,614 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:32:18,682 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:32:18,682 - INFO - Workflow scheduler stopped
+2026-03-05 17:32:18,682 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:32:18,819 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:32:18,819 - INFO - Workflow scheduler stopped
+2026-03-05 17:32:18,819 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:32:18,844 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:32:18,845 - INFO - Workflow scheduler stopped
+own - stopping services
+2026-03-05 17:32:18,845 - INFO - Workflow scheduler stopped
+2026-03-05 17:32:18,845 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:32:18,845 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:32:18,908 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:32:18,908 - INFO - Workflow scheduler stopped
+2026-03-05 17:32:18,908 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:32:20,299 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:32:20,299 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:32:20,299 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:20,299 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:20,299 - INFO - Workflow scheduler started
+2026-03-05 17:32:20,299 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:32:20,406 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:32:20,407 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:32:20,407 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:20,407 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:20,407 - INFO - Workflow scheduler started
+2026-03-05 17:32:20,407 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:32:20,423 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:32:20,428 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:32:20,428 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:20,428 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:20,428 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:32:20,428 - INFO - Workflow scheduler started
+2026-03-05 17:32:20,428 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:32:20,428 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:32:20,428 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:20,428 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:20,428 - INFO - Workflow scheduler started
+2026-03-05 17:32:20,428 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:32:20,432 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:32:20,432 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:32:20,432 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:20,432 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:20,440 - INFO - Workflow scheduler started
+2026-03-05 17:32:20,440 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:32:28,122 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:32:28,122 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:32:28,122 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:28,122 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:32:28,122 - INFO - Workflow scheduler started
+2026-03-05 17:32:28,122 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:18,388 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:18,388 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:18,388 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:18,390 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:18,390 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:33:18,500 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:18,500 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:18,500 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:33:18,501 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:18,501 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:18,501 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:33:18,614 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:18,614 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:18,614 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:33:18,614 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:18,614 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:18,614 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:33:20,065 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:20,065 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:20,065 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,065 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,068 - INFO - Workflow scheduler started
+2026-03-05 17:33:20,068 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:20,072 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:20,078 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:20,078 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,079 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,079 - INFO - Workflow scheduler started
+2026-03-05 17:33:20,079 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:20,115 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:20,115 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:20,115 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,118 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,118 - INFO - Workflow scheduler started
+2026-03-05 17:33:20,118 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:20,124 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:20,126 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:20,126 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,126 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,126 - INFO - Workflow scheduler started
+2026-03-05 17:33:20,126 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:20,128 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:20,130 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:20,130 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,130 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,130 - INFO - Workflow scheduler started
+2026-03-05 17:33:20,130 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:20,184 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:20,184 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:20,184 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,184 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:20,187 - INFO - Workflow scheduler started
+2026-03-05 17:33:20,187 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:20,765 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:20,765 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:20,765 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:33:20,783 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:20,783 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:20,783 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:33:20,832 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:20,832 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:20,832 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:33:20,896 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:20,898 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:20,898 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:33:20,933 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:20,933 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 17:33:20,935 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:20,935 - INFO - Workflow scheduler stopped
+2026-03-05 17:33:20,935 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:33:20,935 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 17:33:22,382 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:22,382 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:22,382 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,382 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,382 - INFO - Workflow scheduler started
+2026-03-05 17:33:22,382 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:22,388 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:22,388 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:22,388 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,388 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,388 - INFO - Workflow scheduler started
+2026-03-05 17:33:22,388 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:22,396 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:22,404 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:22,404 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,405 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,405 - INFO - Workflow scheduler started
+2026-03-05 17:33:22,405 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:22,414 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:22,414 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:22,414 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,414 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,414 - INFO - Workflow scheduler started
+2026-03-05 17:33:22,414 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:22,429 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:22,429 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:33:22,429 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:22,429 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,429 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,445 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:33:22,445 - INFO - Workflow scheduler started
+2026-03-05 17:33:22,445 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:33:22,445 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,445 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:33:22,445 - INFO - Workflow scheduler started
+2026-03-05 17:33:22,445 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:36:47,274 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 17:36:47,274 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 17:36:47,274 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 17:36:47,274 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 17:36:47,274 - INFO - Workflow scheduler started
+2026-03-05 17:36:47,274 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 17:41:30,967 - INFO - Retrieving 0 workflows
+2026-03-05 17:41:30,990 - INFO - Retrieving 0 workflows
+2026-03-05 17:42:17,685 - INFO - Generating workflow from prompt: create a workflow using gmail
+2026-03-05 17:42:17,685 - INFO - Workflow generated successfully: create a workflow using gmail
+2026-03-05 17:42:32,429 - INFO - Executing workflow: create a workflow using gmail
+2026-03-05 17:42:32,429 - INFO - Running workflow: create a workflow using gmail
+2026-03-05 17:42:32,429 - INFO - Trigger 'manual_trigger' condition met
+2026-03-05 17:42:32,429 - INFO - Executing action: log_data
+2026-03-05 17:42:32,431 - INFO - Logging data: id=None name='create a workflow using gmail' prompt='create a workflow using gmail' trigger=TriggerConfig(type='manual_trigger', conditions=None) ai_step=AIStepConfig(type='basic_processing', model='gpt-3.5-turbo', settings=None) action=ActionConfig(type='log_data', config=None) status='active' created_at=datetime.datetime(2026, 3, 5, 12, 12, 17, 685780) updated_at=datetime.datetime(2026, 3, 5, 12, 12, 17, 685780)
+2026-03-05 17:42:32,431 - INFO - Workflow executed successfully: {'status': 'success', 'message': 'Data logged successfully'}
+2026-03-05 17:45:15,277 - INFO - Retrieving 0 workflows
+2026-03-05 17:45:15,296 - INFO - Retrieving 0 workflows
+2026-03-05 17:45:43,719 - INFO - Generating workflow from prompt: send a email summary by the date order
+2026-03-05 17:45:43,721 - INFO - Workflow generated successfully: send a email summary by the date order
+2026-03-05 17:45:46,955 - INFO - Generating workflow from prompt: Classify incoming emails and save summaries to database
+2026-03-05 17:45:46,955 - INFO - Workflow generated successfully: Classify incoming emails and save summaries to dat
+2026-03-05 17:45:48,118 - INFO - Generating workflow from prompt: Send email when new orders arrive
+2026-03-05 17:45:48,119 - INFO - Workflow generated successfully: Send email when new orders arrive
+2026-03-05 17:45:49,381 - INFO - Generating workflow from prompt: Send email when new orders arrive
+2026-03-05 17:45:49,383 - INFO - Workflow generated successfully: Send email when new orders arrive
+2026-03-05 17:45:50,087 - INFO - Generating workflow from prompt: Send email when new orders arrive
+2026-03-05 17:45:50,088 - INFO - Workflow generated successfully: Send email when new orders arrive
+2026-03-05 17:45:50,611 - INFO - Generating workflow from prompt: Send email when new orders arrive
+2026-03-05 17:45:50,613 - INFO - Workflow generated successfully: Send email when new orders arrive
+2026-03-05 17:45:51,305 - INFO - Generating workflow from prompt: Send email when new orders arrive
+2026-03-05 17:45:51,306 - INFO - Workflow generated successfully: Send email when new orders arrive
+2026-03-05 17:46:01,038 - INFO - Executing workflow: Send email when new orders arrive
+2026-03-05 17:46:01,038 - INFO - Running workflow: Send email when new orders arrive
+2026-03-05 17:46:01,038 - INFO - Checking for new emails...
+2026-03-05 17:46:01,038 - INFO - Trigger 'new_email' condition not met
+2026-03-05 17:46:26,044 - INFO - Executing workflow: Send email when new orders arrive
+2026-03-05 17:46:26,044 - INFO - Running workflow: Send email when new orders arrive
+2026-03-05 17:46:26,044 - INFO - Checking for new emails...
+2026-03-05 17:46:26,044 - INFO - Trigger 'new_email' condition not met
+2026-03-05 18:02:14,001 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:02:14,001 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:02:14,001 - INFO - Workflow scheduler stopped
+2026-03-05 18:02:14,001 - INFO - Workflow scheduler stopped
+2026-03-05 18:02:14,001 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:02:14,001 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:02:14,122 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:02:14,122 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:02:14,122 - INFO - Workflow scheduler stopped
+2026-03-05 18:02:14,122 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:02:14,124 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:02:14,124 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:02:14,124 - INFO - Workflow scheduler stopped
+2026-03-05 18:02:14,124 - INFO - Workflow scheduler stopped
+2026-03-05 18:02:14,124 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:02:14,124 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:02:14,229 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:02:14,229 - INFO - Workflow scheduler stopped
+2026-03-05 18:02:14,229 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:02:15,833 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:02:15,833 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:02:15,836 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:02:15,836 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:02:15,836 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,836 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,836 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,836 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,836 - INFO - Workflow scheduler started
+2026-03-05 18:02:15,836 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:02:15,836 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:02:15,836 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:02:15,836 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:02:15,847 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:02:15,847 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,847 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,847 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,847 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,847 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:02:15,847 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:02:15,847 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:02:15,847 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:02:15,847 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,847 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,847 - INFO - Workflow scheduler started
+2026-03-05 18:02:15,847 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:02:15,847 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:02:15,847 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:02:15,847 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,847 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,847 - INFO - Workflow scheduler started
+2026-03-05 18:02:15,847 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:02:15,873 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:02:15,873 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:02:15,873 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,873 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:02:15,873 - INFO - Workflow scheduler started
+2026-03-05 18:02:15,873 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:03:25,077 - INFO - Retrieving 0 workflows
+2026-03-05 18:03:25,093 - INFO - Retrieving 0 workflows
+2026-03-05 18:19:26,246 - INFO - Generating workflow from prompt: send email summary when new orders arrive and classify them by type
+2026-03-05 18:19:26,246 - INFO - Workflow generated successfully: send email summary when new orders arrive and clas
+2026-03-05 18:19:43,889 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-05 18:19:43,889 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-05 18:19:43,889 - INFO - Checking for new emails...
+2026-03-05 18:19:43,889 - INFO - Trigger 'new_email' condition not met
+2026-03-05 18:49:41,392 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:49:41,392 - INFO - Workflow scheduler stopped
+2026-03-05 18:49:41,392 - INFO - Workflow scheduler stopped
+2026-03-05 18:49:41,392 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:49:41,392 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:49:41,392 - INFO - Workflow scheduler stopped
+2026-03-05 18:49:41,392 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:49:41,392 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:49:43,212 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:49:43,212 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:49:43,212 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:49:43,212 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:49:43,212 - INFO - Workflow scheduler started
+2026-03-05 18:49:43,212 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:49:43,218 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:49:43,229 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:49:43,229 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:49:43,229 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:49:43,229 - INFO - Workflow scheduler started
+2026-03-05 18:49:43,229 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:49:43,234 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:49:43,234 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:49:43,234 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:49:43,242 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:49:43,242 - INFO - Workflow scheduler started
+2026-03-05 18:49:43,242 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:49:43,242 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:49:43,242 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:49:43,242 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:49:43,242 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:49:43,242 - INFO - Workflow scheduler started
+2026-03-05 18:49:43,242 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:50:10,709 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:50:10,709 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:50:10,709 - INFO - Workflow scheduler stopped
+2026-03-05 18:50:10,711 - INFO - Workflow scheduler stopped
+2026-03-05 18:50:10,711 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:50:10,711 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:50:10,795 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:50:10,795 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:50:10,797 - INFO - Workflow scheduler stopped
+2026-03-05 18:50:10,797 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:50:10,797 - INFO - Workflow scheduler stopped
+2026-03-05 18:50:10,797 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:50:10,797 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:50:10,923 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:50:10,923 - INFO - Workflow scheduler stopped
+2026-03-05 18:50:10,923 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:50:10,923 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:50:10,923 - INFO - Workflow scheduler stopped
+2026-03-05 18:50:10,923 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:50:12,368 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:50:12,368 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:50:12,368 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,368 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,368 - INFO - Workflow scheduler started
+2026-03-05 18:50:12,368 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:50:12,382 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:50:12,383 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:50:12,383 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,383 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,383 - INFO - Workflow scheduler started
+2026-03-05 18:50:12,383 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:50:12,385 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:50:12,388 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:50:12,388 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,388 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,388 - INFO - Workflow scheduler started
+2026-03-05 18:50:12,388 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:50:12,391 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:50:12,391 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:50:12,391 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:50:12,391 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:50:12,392 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,392 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,392 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,392 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,392 - INFO - Workflow scheduler started
+2026-03-05 18:50:12,392 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:50:12,392 - INFO - Workflow scheduler started
+2026-03-05 18:50:12,392 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:50:12,465 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:50:12,465 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:50:12,465 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,465 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,465 - INFO - Workflow scheduler started
+2026-03-05 18:50:12,465 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:50:12,516 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:50:12,516 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:50:12,516 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,516 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:50:12,516 - INFO - Workflow scheduler started
+2026-03-05 18:50:12,516 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:08,307 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:53:08,307 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:08,307 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:08,331 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:53:08,333 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:08,333 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:08,414 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:53:08,414 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:08,414 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:08,525 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:53:08,525 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:08,525 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:08,525 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:08,525 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:08,525 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:08,627 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:53:08,627 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:08,627 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:10,187 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:10,187 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:10,187 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:10,187 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,187 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,187 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:10,187 - INFO - Workflow scheduler started
+ started - workflows will run automatically!
+2026-03-05 18:53:10,187 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,187 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:10,187 - INFO - Workflow scheduler started
+2026-03-05 18:53:10,187 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:10,286 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:10,289 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:10,289 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,289 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,291 - INFO - Workflow scheduler started
+2026-03-05 18:53:10,291 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:10,376 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:10,376 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:10,376 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,376 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,376 - INFO - Workflow scheduler started
+2026-03-05 18:53:10,376 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:10,396 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:10,396 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:10,396 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,396 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,399 - INFO - Workflow scheduler started
+2026-03-05 18:53:10,399 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:10,409 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:10,409 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:10,411 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,411 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,411 - INFO - Workflow scheduler started
+2026-03-05 18:53:10,411 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:10,550 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:10,550 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:10,550 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,550 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:10,550 - INFO - Workflow scheduler started
+2026-03-05 18:53:10,550 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:14,552 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:53:14,554 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:14,554 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:14,616 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:53:14,616 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:14,617 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:14,659 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:53:14,659 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:14,659 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:14,749 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:53:14,749 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:14,749 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:14,763 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:53:14,763 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 18:53:14,763 - INFO - Workflow scheduler stopped
+2026-03-05 18:53:14,763 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:14,763 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:14,763 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 18:53:16,449 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:16,449 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:16,449 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:16,449 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,449 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,449 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:16,449 - INFO - Workflow scheduler started
+2026-03-05 18:53:16,449 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,449 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:16,449 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,449 - INFO - Workflow scheduler started
+2026-03-05 18:53:16,449 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:16,449 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:16,449 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:16,460 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,460 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,460 - INFO - Workflow scheduler started
+2026-03-05 18:53:16,460 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:16,460 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:16,460 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:16,460 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,460 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,460 - INFO - Workflow scheduler started
+2026-03-05 18:53:16,460 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:16,460 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:16,460 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:16,460 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,460 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,460 - INFO - Workflow scheduler started
+2026-03-05 18:53:16,460 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:16,468 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:16,469 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:16,469 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,469 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,469 - INFO - Workflow scheduler started
+2026-03-05 18:53:16,469 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:53:16,469 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:53:16,469 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:53:16,469 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,469 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:53:16,469 - INFO - Workflow scheduler started
+2026-03-05 18:53:16,469 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:54:48,607 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 18:54:48,607 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 18:54:48,607 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 18:54:48,607 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 18:54:48,607 - INFO - Workflow scheduler started
+2026-03-05 18:54:48,607 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 18:59:58,028 - INFO - Retrieving 0 workflows
+2026-03-05 18:59:58,038 - INFO - Retrieving 0 workflows
+2026-03-05 19:19:56,969 - INFO - API key set for service: GEMINI API KEY
+2026-03-05 19:19:56,972 - INFO - API key set: GEMINI API KEY
+2026-03-05 21:16:09,595 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 21:16:09,600 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 21:16:09,600 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 21:16:09,601 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 21:16:09,602 - INFO - Workflow scheduler started
+2026-03-05 21:16:09,602 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 21:18:27,310 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 21:18:27,310 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 21:18:27,311 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 21:18:27,311 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 21:18:27,311 - INFO - Workflow scheduler started
+2026-03-05 21:18:27,311 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 21:18:27,313 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 21:18:27,313 - INFO - Workflow scheduler stopped
+2026-03-05 21:18:27,313 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 21:27:13,480 - INFO - Workflow created: Email Classifier

@@ -1,0 +1,568 @@
+2026-03-05 22:54:57,100 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 22:54:57,100 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 22:54:57,100 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 22:54:57,100 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 22:54:57,100 - INFO - Workflow scheduler started
+2026-03-05 22:54:57,100 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 22:55:22,272 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 22:55:22,272 - INFO - Workflow scheduler stopped
+2026-03-05 22:55:22,272 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 22:55:31,232 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 22:55:31,232 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 22:55:31,232 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 22:55:31,232 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 22:55:31,232 - INFO - Workflow scheduler started
+2026-03-05 22:55:31,232 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 23:01:16,329 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 23:01:16,329 - INFO - Workflow scheduler stopped
+2026-03-05 23:01:16,331 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 23:01:17,687 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 23:01:17,687 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 23:01:17,687 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 23:01:17,687 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 23:01:17,687 - INFO - Workflow scheduler started
+2026-03-05 23:01:17,687 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 23:20:45,071 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 23:20:45,071 - INFO - Workflow scheduler stopped
+2026-03-05 23:20:45,071 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 23:21:33,181 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 23:21:33,181 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 23:21:33,181 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 23:21:33,181 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 23:21:33,182 - INFO - Workflow scheduler started
+2026-03-05 23:21:33,182 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 23:36:57,267 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 23:36:57,267 - INFO - Workflow scheduler stopped
+2026-03-05 23:36:57,267 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 23:37:58,088 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 23:37:58,088 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 23:37:58,088 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 23:37:58,088 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 23:37:58,088 - INFO - Workflow scheduler started
+2026-03-05 23:37:58,088 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-05 23:39:27,548 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-05 23:39:27,548 - INFO - Workflow scheduler stopped
+2026-03-05 23:39:27,548 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-05 23:39:41,098 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-05 23:39:41,098 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-05 23:39:41,098 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-05 23:39:41,098 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-05 23:39:41,102 - INFO - Workflow scheduler started
+2026-03-05 23:39:41,102 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-06 00:33:10,935 - INFO - Generating workflow from prompt: send email summary when new orders arrive and classify them by type
+2026-03-06 00:33:10,941 - INFO - Workflow generated successfully: send email summary when new orders arrive and clas
+2026-03-06 00:33:25,810 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 00:33:25,810 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 00:33:25,810 - INFO - Checking for new emails...
+2026-03-06 00:33:25,810 - INFO - Trigger 'new_email' condition not met
+2026-03-06 00:33:29,409 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 00:33:29,411 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 00:33:29,411 - INFO - Checking for new emails...
+2026-03-06 00:33:29,411 - INFO - Trigger 'new_email' condition not met
+2026-03-06 00:33:44,453 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 00:33:44,453 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 00:33:44,456 - INFO - Checking for new emails...
+2026-03-06 00:33:44,456 - INFO - Trigger 'new_email' condition not met
+2026-03-06 00:40:39,910 - INFO - Generating workflow from prompt: send email summary when new orders arrive and classify them by type
+2026-03-06 00:40:39,910 - INFO - Workflow generated successfully: send email summary when new orders arrive and clas
+2026-03-06 00:49:46,448 - INFO - Executing workflow: Test Workflow
+2026-03-06 00:49:46,448 - INFO - Running workflow: Test Workflow
+2026-03-06 00:49:46,448 - INFO - Trigger 'manual_trigger' condition met
+2026-03-06 00:49:46,448 - INFO - Executing action: log_data
+2026-03-06 00:49:46,448 - INFO - Logging data: id=None name='Test Workflow' prompt='Test run' trigger=TriggerConfig(type='manual_trigger', conditions=None) ai_step=AIStepConfig(type='basic_processing', model='gpt-3.5-turbo', settings=None) action=ActionConfig(type='log_data', config=None) status='active' created_at=datetime.datetime(2026, 3, 5, 19, 19, 46, 448427) updated_at=datetime.datetime(2026, 3, 5, 19, 19, 46, 448427)
+2026-03-06 00:49:46,448 - INFO - Workflow executed successfully: {'status': 'success', 'message': 'Data logged successfully'}
+2026-03-06 00:59:24,772 - INFO - Generating workflow from prompt: email an order
+2026-03-06 00:59:24,772 - INFO - Workflow generated successfully: email an order
+2026-03-06 00:59:29,661 - INFO - Executing workflow: email an order
+2026-03-06 00:59:29,661 - INFO - Running workflow: email an order
+2026-03-06 00:59:29,661 - INFO - Checking for new emails...
+2026-03-06 00:59:29,661 - INFO - Trigger 'new_email' condition not met
+2026-03-06 00:59:30,960 - INFO - Executing workflow: email an order
+2026-03-06 00:59:30,960 - INFO - Running workflow: email an order
+2026-03-06 00:59:30,960 - INFO - Checking for new emails...
+2026-03-06 00:59:30,960 - INFO - Trigger 'new_email' condition not met
+2026-03-06 00:59:31,294 - INFO - Executing workflow: email an order
+2026-03-06 00:59:31,294 - INFO - Running workflow: email an order
+2026-03-06 00:59:31,294 - INFO - Checking for new emails...
+2026-03-06 00:59:31,294 - INFO - Trigger 'new_email' condition not met
+2026-03-06 00:59:31,510 - INFO - Executing workflow: email an order
+2026-03-06 00:59:31,510 - INFO - Running workflow: email an order
+2026-03-06 00:59:31,512 - INFO - Checking for new emails...
+2026-03-06 00:59:31,512 - INFO - Trigger 'new_email' condition not met
+2026-03-06 00:59:32,650 - INFO - Workflow created: email an order
+2026-03-06 00:59:33,418 - INFO - Workflow created: email an order
+2026-03-06 00:59:34,541 - INFO - Executing workflow: email an order
+2026-03-06 00:59:34,541 - INFO - Running workflow: email an order
+2026-03-06 00:59:34,541 - INFO - Checking for new emails...
+2026-03-06 00:59:34,541 - INFO - Trigger 'new_email' condition not met
+2026-03-06 00:59:34,687 - INFO - Executing workflow: email an order
+2026-03-06 00:59:34,688 - INFO - Running workflow: email an order
+2026-03-06 00:59:34,689 - INFO - Checking for new emails...
+2026-03-06 00:59:34,689 - INFO - Trigger 'new_email' condition not met
+2026-03-06 00:59:34,912 - INFO - Executing workflow: email an order
+2026-03-06 00:59:34,912 - INFO - Running workflow: email an order
+2026-03-06 00:59:34,912 - INFO - Checking for new emails...
+2026-03-06 00:59:34,912 - INFO - Trigger 'new_email' condition not met
+2026-03-06 01:21:33,397 - INFO - Generating workflow from prompt: send gmail summary when new orders arrive and classify them by type
+2026-03-06 01:21:33,400 - INFO - Workflow generated successfully: send gmail summary when new orders arrive and clas
+2026-03-06 01:21:49,242 - INFO - Workflow created: send gmail summary when new orders arrive and clas
+2026-03-06 01:54:29,982 - INFO - Generating workflow from prompt: send email summary when new orders arrive and classify them by type
+2026-03-06 01:54:29,983 - INFO - Workflow generated successfully: send email summary when new orders arrive and clas
+2026-03-06 01:54:37,451 - INFO - Workflow created: send email summary when new orders arrive and clas
+2026-03-06 01:54:37,592 - INFO - Workflow created: send email summary when new orders arrive and clas
+2026-03-06 01:54:39,658 - INFO - Workflow created: send email summary when new orders arrive and clas
+2026-03-06 01:54:39,876 - INFO - Workflow created: send email summary when new orders arrive and clas
+2026-03-06 02:18:12,828 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-06 02:18:12,829 - INFO - Workflow scheduler stopped
+2026-03-06 02:18:12,829 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-06 02:18:14,465 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-06 02:18:14,465 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 02:18:14,466 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 02:18:14,466 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-06 02:18:14,466 - INFO - Workflow scheduler started
+2026-03-06 02:18:14,466 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-06 02:18:14,578 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-06 02:18:14,578 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 02:18:14,578 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 02:18:14,578 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-06 02:18:14,578 - INFO - Workflow scheduler started
+2026-03-06 02:18:14,578 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-06 02:20:50,064 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-06 02:20:50,065 - INFO - Workflow scheduler stopped
+2026-03-06 02:20:50,065 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-06 02:20:50,096 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-06 02:20:50,096 - INFO - Workflow scheduler stopped
+2026-03-06 02:20:50,097 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-06 02:29:40,292 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-06 02:29:40,292 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 02:29:40,292 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 02:29:40,293 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-06 02:29:40,293 - INFO - Workflow scheduler started
+2026-03-06 02:29:40,293 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-06 02:29:40,325 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-06 02:29:40,326 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 02:29:40,326 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 02:29:40,326 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-06 02:29:40,326 - INFO - Workflow scheduler started
+2026-03-06 02:29:40,326 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-06 02:29:47,504 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-06 02:29:47,504 - INFO - Workflow scheduler stopped
+2026-03-06 02:29:47,504 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-06 02:29:55,553 - INFO - \U0001f680 Application startup - Automation API initialized
+2026-03-06 02:29:55,554 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 02:29:55,554 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 02:29:55,554 - INFO - \U0001f504 Automation engine started - workflows will run automatically!
+2026-03-06 02:29:55,555 - INFO - Workflow scheduler started
+2026-03-06 02:29:55,555 - INFO - \U0001f4c5 Workflow scheduler started - scheduled workflows will run automatically!
+2026-03-06 02:35:06,645 - INFO - Generating workflow from prompt: send email summary when new orders arrive and classify them by type
+2026-03-06 02:35:06,646 - INFO - Workflow generated successfully: send email summary when new orders arrive and clas
+2026-03-06 02:35:18,228 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:18,228 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:18,228 - INFO - Checking for new emails...
+2026-03-06 02:35:18,228 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:19,261 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:19,261 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:19,262 - INFO - Checking for new emails...
+2026-03-06 02:35:19,262 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:19,489 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:19,489 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:19,489 - INFO - Checking for new emails...
+2026-03-06 02:35:19,489 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:19,673 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:19,674 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:19,674 - INFO - Checking for new emails...
+2026-03-06 02:35:19,674 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:19,891 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:19,891 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:19,891 - INFO - Checking for new emails...
+2026-03-06 02:35:19,891 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:20,111 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:20,111 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:20,112 - INFO - Checking for new emails...
+2026-03-06 02:35:20,112 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:20,301 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:20,302 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:20,302 - INFO - Checking for new emails...
+2026-03-06 02:35:20,302 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:20,486 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:20,486 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:20,486 - INFO - Checking for new emails...
+2026-03-06 02:35:20,486 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:20,690 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:20,690 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:20,690 - INFO - Checking for new emails...
+2026-03-06 02:35:20,691 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:20,873 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:20,874 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:20,874 - INFO - Checking for new emails...
+2026-03-06 02:35:20,874 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:21,090 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:21,090 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:21,090 - INFO - Checking for new emails...
+2026-03-06 02:35:21,090 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:22,775 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:22,775 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:22,775 - INFO - Checking for new emails...
+2026-03-06 02:35:22,776 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:23,659 - INFO - Workflow created: send email summary when new orders arrive and clas
+2026-03-06 02:35:23,829 - INFO - Workflow created: send email summary when new orders arrive and clas
+2026-03-06 02:35:24,045 - INFO - Workflow created: send email summary when new orders arrive and clas
+2026-03-06 02:35:24,892 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:24,892 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:24,892 - INFO - Checking for new emails...
+2026-03-06 02:35:24,892 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:35:25,112 - INFO - Executing workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:25,113 - INFO - Running workflow: send email summary when new orders arrive and clas
+2026-03-06 02:35:25,113 - INFO - Checking for new emails...
+2026-03-06 02:35:25,113 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:39:49,300 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-06 02:39:49,300 - INFO - Workflow scheduler stopped
+2026-03-06 02:39:49,300 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-06 02:39:49,442 - INFO - \U0001f6d1 Application shutdown - stopping services
+2026-03-06 02:39:49,442 - INFO - Workflow scheduler stopped
+2026-03-06 02:39:49,442 - INFO - \U0001f4c5 Workflow scheduler stopped
+2026-03-06 02:39:50,745 - INFO - Application startup
+2026-03-06 02:39:50,745 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 02:39:50,746 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 02:39:50,746 - INFO - Automation engine started
+2026-03-06 02:39:50,746 - INFO - Workflow scheduler started
+2026-03-06 02:39:50,746 - INFO - Scheduler started
+2026-03-06 02:39:50,748 - INFO - Application startup
+2026-03-06 02:39:50,748 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 02:39:50,748 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 02:39:50,749 - INFO - Automation engine started
+2026-03-06 02:39:50,749 - INFO - Workflow scheduler started
+2026-03-06 02:39:50,749 - INFO - Scheduler started
+2026-03-06 02:50:36,070 - INFO - Workflow created: Email Classifier
+2026-03-06 02:56:34,340 - INFO - Application shutdown
+2026-03-06 02:56:34,340 - INFO - Workflow scheduler stopped
+2026-03-06 02:56:34,340 - INFO - Scheduler stopped
+2026-03-06 02:57:21,297 - INFO - Application startup
+2026-03-06 02:57:21,297 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 02:57:21,297 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 02:57:21,297 - INFO - Automation engine started
+2026-03-06 02:57:21,298 - INFO - Workflow scheduler started
+2026-03-06 02:57:21,298 - INFO - Scheduler started
+2026-03-06 02:58:42,144 - INFO - Generating workflow from prompt: send email summary when new orders arrives and classify them by type
+2026-03-06 02:58:42,145 - INFO - Workflow generated successfully: send email summary when new orders arrives and cla
+2026-03-06 02:58:46,843 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:46,844 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:46,844 - INFO - Checking for new emails...
+2026-03-06 02:58:46,844 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:58:47,909 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:47,909 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:47,909 - INFO - Checking for new emails...
+2026-03-06 02:58:47,909 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:58:48,135 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:48,135 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:48,135 - INFO - Checking for new emails...
+2026-03-06 02:58:48,136 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:58:48,325 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:48,325 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:48,326 - INFO - Checking for new emails...
+2026-03-06 02:58:48,326 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:58:48,570 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:48,570 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:48,570 - INFO - Checking for new emails...
+2026-03-06 02:58:48,570 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:58:48,762 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:48,762 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:48,763 - INFO - Checking for new emails...
+2026-03-06 02:58:48,763 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:58:49,001 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:49,002 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:49,002 - INFO - Checking for new emails...
+2026-03-06 02:58:49,003 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:58:49,216 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:49,216 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:49,216 - INFO - Checking for new emails...
+2026-03-06 02:58:49,216 - INFO - Trigger 'new_email' condition not met
+2026-03-06 02:58:50,075 - INFO - Workflow created: send email summary when new orders arrives and cla
+2026-03-06 02:58:51,065 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:51,065 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 02:58:51,065 - INFO - Checking for new emails...
+2026-03-06 02:58:51,065 - INFO - Trigger 'new_email' condition not met
+2026-03-06 03:11:37,237 - INFO - Application shutdown
+2026-03-06 03:11:37,237 - INFO - Workflow scheduler stopped
+2026-03-06 03:11:37,237 - INFO - Scheduler stopped
+2026-03-06 03:15:46,280 - INFO - Executing workflow: Email Classifier
+2026-03-06 03:15:46,280 - INFO - Running workflow: Email Classifier
+2026-03-06 03:15:46,280 - INFO - Checking for new emails...
+2026-03-06 03:15:46,281 - INFO - Trigger 'new_email' condition not met
+2026-03-06 03:18:17,933 - INFO - Executing workflow: Test Workflow
+2026-03-06 03:18:17,933 - INFO - Running workflow: Test Workflow
+2026-03-06 03:18:17,933 - INFO - Trigger 'manual_trigger' condition met
+2026-03-06 03:18:17,933 - INFO - Executing action: log_data
+2026-03-06 03:18:17,934 - INFO - Logging data: id=None name='Test Workflow' prompt='Test run' trigger=TriggerConfig(type='manual_trigger', conditions=None) ai_step=AIStepConfig(type='basic_processing', model='gpt-3.5-turbo', settings=None) action=ActionConfig(type='log_data', config=None) status='active' created_at=datetime.datetime(2026, 3, 5, 21, 48, 17, 932625) updated_at=datetime.datetime(2026, 3, 5, 21, 48, 17, 932625)
+2026-03-06 03:18:17,934 - INFO - Workflow executed successfully: {'status': 'success', 'message': 'Data logged successfully'}
+2026-03-06 03:21:30,379 - INFO - Executing workflow: Test Workflow
+2026-03-06 03:21:30,379 - INFO - Running workflow: Test Workflow
+2026-03-06 03:21:30,379 - INFO - Trigger 'manual_trigger' condition met
+2026-03-06 03:21:30,379 - INFO - Executing action: log_data
+2026-03-06 03:21:30,379 - INFO - Logging data: id=None name='Test Workflow' prompt='Test run' trigger=TriggerConfig(type='manual_trigger', conditions=None) ai_step=AIStepConfig(type='basic_processing', model='gpt-3.5-turbo', settings=None) action=ActionConfig(type='log_data', config=None) status='active' created_at=datetime.datetime(2026, 3, 5, 21, 51, 30, 378928) updated_at=datetime.datetime(2026, 3, 5, 21, 51, 30, 378928)
+2026-03-06 03:21:30,380 - INFO - Workflow executed successfully: {'status': 'success', 'message': 'Data logged successfully'}
+2026-03-06 03:55:14,176 - INFO - Generating workflow from prompt: send email summary when new orders arrives and classify them by type
+2026-03-06 03:55:14,179 - INFO - Workflow generated successfully: send email summary when new orders arrives and cla
+2026-03-06 03:55:23,130 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 03:55:23,131 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 03:55:23,131 - INFO - Checking for new emails...
+2026-03-06 03:55:23,131 - INFO - Trigger 'new_email' condition not met
+2026-03-06 03:56:18,176 - INFO - Workflow created: send email summary when new orders arrives and cla
+2026-03-06 03:56:53,278 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 03:56:53,278 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 03:56:53,278 - INFO - Checking for new emails...
+2026-03-06 03:56:53,278 - INFO - Trigger 'new_email' condition not met
+2026-03-06 04:10:31,225 - INFO - API key set for service: email_sender
+2026-03-06 04:10:31,225 - INFO - API key set for service: email_password
+2026-03-06 04:10:31,231 - INFO - API key set for service: email_smtp_server
+2026-03-06 04:10:31,233 - INFO - API key set for service: email_smtp_port
+2026-03-06 04:10:31,236 - INFO - Email integration configured successfully
+2026-03-06 04:10:31,236 - INFO - Integration configured: email
+2026-03-06 04:12:01,605 - INFO - Executing workflow: Email Test
+2026-03-06 04:12:01,605 - INFO - Running workflow: Email Test
+2026-03-06 04:12:01,605 - INFO - Trigger 'manual_trigger' condition met
+2026-03-06 04:12:01,605 - INFO - Executing action: send_email
+2026-03-06 04:12:01,608 - INFO - Email action result: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:12:01,608 - INFO - Workflow executed successfully: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:16:44,429 - INFO - Executing workflow: Email Test
+2026-03-06 04:16:44,429 - INFO - Running workflow: Email Test
+2026-03-06 04:16:44,429 - INFO - Trigger 'manual_trigger' condition met
+2026-03-06 04:16:44,429 - INFO - Executing action: send_email
+2026-03-06 04:16:44,429 - INFO - Email action result: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:16:44,430 - INFO - Workflow executed successfully: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:20:16,144 - INFO - Executing workflow: Email Test
+2026-03-06 04:20:16,145 - INFO - Running workflow: Email Test
+2026-03-06 04:20:16,145 - INFO - Trigger 'manual_trigger' condition met
+2026-03-06 04:20:16,145 - INFO - Executing action: send_email
+2026-03-06 04:20:16,145 - INFO - Email action result: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:20:16,145 - INFO - Workflow executed successfully: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:24:11,186 - INFO - Executing workflow: send email summary when new orders arrives and cla
+2026-03-06 04:24:11,187 - INFO - Running workflow: send email summary when new orders arrives and cla
+2026-03-06 04:24:11,187 - INFO - Checking for new emails...
+2026-03-06 04:24:11,187 - INFO - Trigger 'new_email' condition not met
+2026-03-06 04:26:11,229 - INFO - Executing workflow: Email Test
+2026-03-06 04:26:11,229 - INFO - Running workflow: Email Test
+2026-03-06 04:26:11,229 - INFO - Trigger 'manual_trigger' condition met
+2026-03-06 04:26:11,230 - INFO - Executing action: send_email
+2026-03-06 04:26:11,230 - INFO - Email action result: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:26:11,230 - INFO - Workflow executed successfully: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:29:29,039 - INFO - Executing workflow: Email Test
+2026-03-06 04:29:29,039 - INFO - Running workflow: Email Test
+2026-03-06 04:29:29,039 - INFO - Trigger 'manual_trigger' condition met
+2026-03-06 04:29:29,039 - INFO - Executing action: send_email
+2026-03-06 04:29:29,039 - INFO - Email action result: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:29:29,039 - INFO - Workflow executed successfully: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:39:33,907 - INFO - Application shutdown
+2026-03-06 04:39:33,907 - INFO - Workflow scheduler stopped
+2026-03-06 04:39:33,907 - INFO - Scheduler stopped
+2026-03-06 04:46:04,810 - INFO - Application startup
+2026-03-06 04:46:04,810 - INFO - Application startup
+2026-03-06 04:46:04,810 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 04:46:04,811 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 04:46:04,811 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 04:46:04,811 - INFO - Automation engine started
+2026-03-06 04:46:04,811 - INFO - Automation engine started
+2026-03-06 04:46:04,811 - INFO - Workflow scheduler started
+2026-03-06 04:46:04,811 - INFO - Scheduler started
+started
+2026-03-06 04:46:04,811 - INFO - Scheduler started
+2026-03-06 04:46:09,067 - INFO - Application shutdown
+2026-03-06 04:46:09,067 - INFO - Workflow scheduler stopped
+2026-03-06 04:46:09,067 - INFO - Scheduler stopped
+2026-03-06 04:46:09,082 - INFO - Application shutdown
+2026-03-06 04:46:09,083 - INFO - Workflow scheduler stopped
+2026-03-06 04:46:09,083 - INFO - Scheduler stopped
+2026-03-06 04:46:10,057 - INFO - Application startup
+2026-03-06 04:46:10,057 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 04:46:10,057 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 04:46:10,058 - INFO - Automation engine started
+2026-03-06 04:46:10,058 - INFO - Workflow scheduler started
+2026-03-06 04:46:10,058 - INFO - Scheduler started
+2026-03-06 04:46:10,063 - INFO - Application startup
+2026-03-06 04:46:10,063 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 04:46:10,063 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 04:46:10,063 - INFO - Automation engine started
+2026-03-06 04:46:10,064 - INFO - Workflow scheduler started
+2026-03-06 04:46:10,064 - INFO - Scheduler started
+2026-03-06 04:46:16,841 - INFO - Application shutdown
+2026-03-06 04:46:16,841 - INFO - Workflow scheduler stopped
+2026-03-06 04:46:16,841 - INFO - Scheduler stopped
+2026-03-06 04:47:14,214 - INFO - Application startup
+2026-03-06 04:47:14,214 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 04:47:14,215 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 04:47:14,215 - INFO - Automation engine started
+2026-03-06 04:47:14,215 - INFO - Workflow scheduler started
+2026-03-06 04:47:14,215 - INFO - Scheduler started
+2026-03-06 04:53:10,544 - INFO - Executing workflow: Email Test
+2026-03-06 04:53:10,544 - INFO - Running workflow: Email Test
+2026-03-06 04:53:10,544 - INFO - Trigger 'manual_trigger' condition met
+2026-03-06 04:53:10,544 - INFO - Executing action: send_email
+2026-03-06 04:53:10,545 - INFO - Email action result: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:53:10,545 - INFO - Workflow executed successfully: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 04:59:24,718 - INFO - Application shutdown
+2026-03-06 04:59:24,719 - INFO - Workflow scheduler stopped
+2026-03-06 04:59:24,719 - INFO - Scheduler stopped
+2026-03-06 04:59:24,862 - INFO - Application shutdown
+2026-03-06 04:59:24,862 - INFO - Workflow scheduler stopped
+2026-03-06 04:59:24,862 - INFO - Scheduler stopped
+2026-03-06 04:59:26,094 - INFO - Application startup
+2026-03-06 04:59:26,096 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 04:59:26,096 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 04:59:26,097 - INFO - Automation engine started
+2026-03-06 04:59:26,098 - INFO - Workflow scheduler started
+2026-03-06 04:59:26,099 - INFO - Scheduler started
+2026-03-06 04:59:26,206 - INFO - Application startup
+2026-03-06 04:59:26,206 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 04:59:26,206 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 04:59:26,206 - INFO - Automation engine started
+2026-03-06 04:59:26,207 - INFO - Workflow scheduler started
+2026-03-06 04:59:26,207 - INFO - Scheduler started
+2026-03-06 05:00:13,458 - INFO - Application shutdown
+2026-03-06 05:00:13,458 - INFO - Application shutdown
+2026-03-06 05:00:13,458 - INFO - Workflow scheduler stopped
+2026-03-06 05:00:13,459 - INFO - Scheduler stopped
+2026-03-06 05:00:13,458 - INFO - Workflow scheduler stopped
+2026-03-06 05:00:13,459 - INFO - Scheduler stopped
+2026-03-06 05:00:16,417 - INFO - Application startup
+2026-03-06 05:00:16,417 - INFO - Application startup
+2026-03-06 05:00:16,417 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 05:00:16,417 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 05:00:16,417 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 05:00:16,417 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 05:00:16,419 - INFO - Automation engine started
+2026-03-06 05:00:16,419 - INFO - Workflow scheduler started
+2026-03-06 05:00:16,419 - INFO - Scheduler started
+2026-03-06 05:00:16,419 - INFO - Workflow scheduler started
+2026-03-06 05:00:16,419 - INFO - Scheduler started
+2026-03-06 05:13:02,569 - INFO - Application shutdown
+2026-03-06 05:13:02,569 - INFO - Workflow scheduler stopped
+2026-03-06 05:13:02,569 - INFO - Scheduler stopped
+2026-03-06 05:13:02,663 - INFO - Application shutdown
+2026-03-06 05:13:02,663 - INFO - Workflow scheduler stopped
+2026-03-06 05:13:02,664 - INFO - Scheduler stopped
+2026-03-06 05:13:04,522 - INFO - Application startup
+2026-03-06 05:13:04,523 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 05:13:04,523 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 05:13:04,523 - INFO - Automation engine started
+2026-03-06 05:13:04,524 - INFO - Workflow scheduler started
+2026-03-06 05:13:04,524 - INFO - Scheduler started
+2026-03-06 05:13:04,670 - INFO - Application startup
+2026-03-06 05:13:04,671 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 05:13:04,671 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 05:13:04,672 - INFO - Automation engine started
+2026-03-06 05:13:04,673 - INFO - Workflow scheduler started
+2026-03-06 05:13:04,674 - INFO - Scheduler started
+2026-03-06 05:13:26,786 - INFO - Application shutdown
+2026-03-06 05:13:26,786 - INFO - Workflow scheduler stopped
+2026-03-06 05:13:26,786 - INFO - Scheduler stopped
+2026-03-06 05:13:52,194 - INFO - Application startup
+2026-03-06 05:13:52,194 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 05:13:52,194 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 05:13:52,194 - INFO - Automation engine started
+2026-03-06 05:13:52,194 - INFO - Workflow scheduler started
+2026-03-06 05:13:52,194 - INFO - Scheduler started
+2026-03-06 05:17:04,495 - INFO - Executing workflow: Email Test
+2026-03-06 05:17:04,498 - INFO - Running workflow: Email Test
+2026-03-06 05:17:04,498 - INFO - Trigger 'manual_trigger' condition met
+2026-03-06 05:17:04,498 - INFO - Executing action: send_email with data: id=None name='Email Test' prompt='Send test email' trigger=TriggerConfig(type='manual_trigger', conditions=None) ai_step=AIStepConfig(type='basic_processing', model='gpt-3.5-turbo', settings=None) action=ActionConfig(type='send_email', config=None) status='active' created_at=datetime.datetime(2026, 3, 5, 23, 47, 4, 495322) updated_at=datetime.datetime(2026, 3, 5, 23, 47, 4, 495322)
+2026-03-06 05:17:04,499 - INFO - Email action result: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 05:17:04,499 - INFO - Workflow executed successfully: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 05:17:05,748 - INFO - Executing workflow: Email Test
+2026-03-06 05:17:05,748 - INFO - Running workflow: Email Test
+2026-03-06 05:17:05,748 - INFO - Trigger 'manual_trigger' condition met
+2026-03-06 05:17:05,748 - INFO - Executing action: send_email with data: id=None name='Email Test' prompt='Send test email' trigger=TriggerConfig(type='manual_trigger', conditions=None) ai_step=AIStepConfig(type='basic_processing', model='gpt-3.5-turbo', settings=None) action=ActionConfig(type='send_email', config=None) status='active' created_at=datetime.datetime(2026, 3, 5, 23, 47, 5, 748820) updated_at=datetime.datetime(2026, 3, 5, 23, 47, 5, 748820)
+2026-03-06 05:17:05,748 - INFO - Email action result: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 05:17:05,748 - INFO - Workflow executed successfully: {'status': 'error', 'message': 'Recipient email not provided'}
+2026-03-06 05:25:58,605 - INFO - Generating workflow from prompt: gmail orders
+2026-03-06 05:25:58,605 - INFO - Workflow generated successfully: gmail orders
+2026-03-06 05:33:43,055 - INFO - Workflow created: Email Classifier
+2026-03-06 05:33:44,495 - INFO - Workflow created: Email Classifier
+2026-03-06 05:33:45,726 - INFO - Workflow created: Email Classifier
+2026-03-06 05:47:31,923 - INFO - Generating workflow from prompt: send email summay when new orders arrive and classify them by type
+2026-03-06 05:47:31,925 - INFO - Workflow generated successfully: send email summay when new orders arrive and class
+2026-03-06 05:47:38,718 - INFO - Executing workflow: send email summay when new orders arrive and class
+2026-03-06 05:47:38,718 - INFO - Running workflow: send email summay when new orders arrive and class
+2026-03-06 05:47:38,718 - INFO - Checking for new emails...
+2026-03-06 05:47:38,718 - INFO - Trigger 'new_email' condition not met
+2026-03-06 05:52:55,636 - INFO - Executing workflow: send email summay when new orders arrive and class
+2026-03-06 05:52:55,636 - INFO - Running workflow: send email summay when new orders arrive and class
+2026-03-06 05:52:55,636 - INFO - Checking for new emails...
+2026-03-06 05:52:55,636 - INFO - Trigger 'new_email' condition not met
+2026-03-06 06:16:55,737 - INFO - API key set for service: test_service
+2026-03-06 06:16:55,738 - INFO - API key set: test_service
+2026-03-06 06:59:40,759 - INFO - Application shutdown
+2026-03-06 06:59:40,765 - INFO - Workflow scheduler stopped
+2026-03-06 06:59:40,766 - INFO - Scheduler stopped
+2026-03-06 06:59:47,823 - INFO - Application startup
+2026-03-06 06:59:47,823 - INFO - \U0001f504 Starting automation monitoring loop...
+2026-03-06 06:59:47,824 - INFO - \U0001f680 Automation engine started - workflows will run automatically!
+2026-03-06 06:59:47,824 - INFO - Automation engine started
+2026-03-06 06:59:47,825 - INFO - Workflow scheduler started
+2026-03-06 06:59:47,825 - INFO - Scheduler started
+2026-03-06 09:19:01,343 - INFO - Generating workflow from prompt: email delivery
+2026-03-06 09:19:01,357 - INFO - Workflow generated successfully: email delivery
+2026-03-06 09:23:17,398 - INFO - Generating workflow from prompt: email on order
+2026-03-06 09:23:17,400 - INFO - Workflow generated successfully: email on order
+2026-03-06 09:23:22,512 - INFO - Executing workflow: email on order
+2026-03-06 09:23:22,513 - INFO - Running workflow: email on order
+2026-03-06 09:23:22,513 - INFO - Checking for new emails...
+2026-03-06 09:23:22,513 - INFO - Trigger 'new_email' condition not met
+2026-03-06 09:23:35,514 - INFO - Workflow created: email on order
+2026-03-06 09:23:41,273 - INFO - Executing workflow: email on order
+2026-03-06 09:23:41,274 - INFO - Running workflow: email on order
+2026-03-06 09:23:41,274 - INFO - Checking for new emails...
+2026-03-06 09:23:41,275 - INFO - Trigger 'new_email' condition not met
+2026-03-06 09:23:51,911 - INFO - Workflow created: email on order
+2026-03-06 09:38:44,809 - INFO - Generating workflow from prompt: email an order
+2026-03-06 09:38:44,811 - INFO - Workflow generated successfully: email an order
+2026-03-06 09:38:56,323 - INFO - Workflow created: email an order
+2026-03-06 09:39:02,190 - INFO - Executing workflow: email an order
+2026-03-06 09:39:02,192 - INFO - Running workflow: email an order
+2026-03-06 09:39:02,192 - INFO - Checking for new emails...
+2026-03-06 09:39:02,192 - INFO - Trigger 'new_email' condition not met
+2026-03-06 09:46:59,183 - INFO - Generating workflow from prompt: email on order
+2026-03-06 09:46:59,183 - INFO - Workflow generated successfully: email on order
+2026-03-06 09:47:11,589 - INFO - Executing workflow: email on order
+2026-03-06 09:47:11,589 - INFO - Running workflow: email on order
+2026-03-06 09:47:11,589 - INFO - Checking for new emails...
+2026-03-06 09:47:11,589 - INFO - Trigger 'new_email' condition not met
+2026-03-06 09:47:13,649 - INFO - Workflow created: email on order
+2026-03-06 09:52:25,877 - INFO - Generating workflow from prompt: eamil on order
+2026-03-06 09:52:25,877 - INFO - Workflow generated successfully: eamil on order
+2026-03-06 09:52:28,002 - INFO - Generating workflow from prompt: eamil on order
+2026-03-06 09:52:28,003 - INFO - Workflow generated successfully: eamil on order
+2026-03-06 09:52:32,663 - INFO - Workflow created: eamil on order
+2026-03-06 09:52:35,161 - INFO - Executing workflow: eamil on order
+2026-03-06 09:52:35,161 - INFO - Running workflow: eamil on order
+2026-03-06 09:52:35,161 - INFO - Checking for new orders...
+2026-03-06 09:52:35,161 - INFO - Trigger 'new_order' condition not met
+2026-03-06 10:01:03,897 - INFO - Generating workflow from prompt: email on order
+2026-03-06 10:01:03,897 - INFO - Workflow generated successfully: email on order
+2026-03-06 10:01:10,909 - INFO - Executing workflow: email on order
+2026-03-06 10:01:10,911 - INFO - Running workflow: email on order
+2026-03-06 10:01:10,911 - INFO - Checking for new emails...
+2026-03-06 10:01:10,911 - INFO - Trigger 'new_email' condition not met
+2026-03-06 10:01:12,664 - INFO - Workflow created: email on order
+2026-03-06 10:01:17,998 - INFO - Workflow created: email on order
+2026-03-06 10:05:21,948 - INFO - Generating workflow from prompt: email on order
+2026-03-06 10:05:21,950 - INFO - Workflow generated successfully: email on order
+2026-03-06 10:07:40,114 - INFO - Generating workflow from prompt: Send email when new orders arrive
+2026-03-06 10:07:40,114 - INFO - Workflow generated successfully: Send email when new orders arrive
+2026-03-06 10:07:41,529 - INFO - Generating workflow from prompt: Send email when new orders arrive
+2026-03-06 10:07:41,530 - INFO - Workflow generated successfully: Send email when new orders arrive
+2026-03-06 10:09:15,134 - INFO - Generating workflow from prompt: email on order
+2026-03-06 10:09:15,134 - INFO - Workflow generated successfully: email on order
+2026-03-06 10:09:17,271 - INFO - Generating workflow from prompt: email on order
+2026-03-06 10:09:17,272 - INFO - Workflow generated successfully: email on order
+2026-03-06 10:10:14,762 - INFO - Generating workflow from prompt: email on order
+2026-03-06 10:10:14,764 - INFO - Workflow generated successfully: email on order
+2026-03-06 10:13:21,936 - INFO - Generating workflow from prompt: email on order
+2026-03-06 10:13:21,938 - INFO - Workflow generated successfully: email on order
+2026-03-06 10:14:53,076 - INFO - Generating workflow from prompt: email on order
+2026-03-06 10:14:53,076 - INFO - Workflow generated successfully: email on order
+2026-03-06 10:14:54,515 - INFO - Generating workflow from prompt: email on order
+2026-03-06 10:14:54,517 - INFO - Workflow generated successfully: email on order
+2026-03-06 10:15:42,911 - INFO - Generating workflow from prompt: email on order
+2026-03-06 10:15:42,911 - INFO - Workflow generated successfully: email on order
+2026-03-06 10:18:56,565 - INFO - Generating workflow from prompt: email on order
+2026-03-06 10:18:56,565 - INFO - Workflow generated successfully: email on order

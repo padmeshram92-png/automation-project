@@ -1,44 +1,73 @@
-def generate_workflow(prompt: str):
+from pydantic import BaseModel, Field
+from typing import Optional, List
+from datetime import datetime
 
-    prompt = prompt.lower()
 
-    workflow = {
-        "trigger": None,
-        "ai_step": None,
-        "action": None
-    }
+class TriggerConfig(BaseModel):
+    """Trigger configuration for workflow"""
+    type: str = Field(..., description="Trigger type: email, order, manual, webhook")
+    conditions: Optional[dict] = Field(default=None, description="Additional conditions")
 
-    # Detect trigger
-    if "email" in prompt:
-        workflow["trigger"] = "new_email"
 
-    elif "order" in prompt:
-        workflow["trigger"] = "new_order"
+class AIStepConfig(BaseModel):
+    """AI Processing step configuration"""
+    type: str = Field(..., description="AI step type: classify, summarize, process")
+    model: Optional[str] = Field(default="gpt-3.5-turbo", description="AI model to use")
+    settings: Optional[dict] = Field(default=None, description="Model settings")
 
-    else:
-        workflow["trigger"] = "manual_trigger"
 
-    # Detect AI step
-    if "classify" in prompt:
-        workflow["ai_step"] = "classify_text"
+class ActionConfig(BaseModel):
+    """Action configuration for workflow"""
+    type: str = Field(..., description="Action type: email, api, database, log")
+    config: Optional[dict] = Field(default=None, description="Action-specific configuration")
 
-    elif "summarize" in prompt:
-        workflow["ai_step"] = "summarize_text"
 
-    else:
-        workflow["ai_step"] = "basic_processing"
+class Workflow(BaseModel):
+    """Workflow model for automation"""
+    id: Optional[str] = Field(default=None, description="Workflow ID")
+    name: str = Field(..., description="Workflow name")
+    prompt: str = Field(..., description="User prompt that triggered workflow")
+    trigger: TriggerConfig = Field(..., description="Trigger configuration")
+    ai_step: AIStepConfig = Field(..., description="AI processing step")
+    action: ActionConfig = Field(..., description="Action to execute")
+    status: str = Field(default="active", description="Workflow status: active, inactive, paused")
+    created_at: Optional[datetime] = Field(default_factory=datetime.utcnow)
+    updated_at: Optional[datetime] = Field(default_factory=datetime.utcnow)
 
-    # Detect action
-    if "reply" in prompt or "send email" in prompt:
-        workflow["action"] = "send_email"
+    class Config:
+        json_schema_extra = {
+            "example": {
+                "name": "Email Classifier",
+                "prompt": "Classify incoming emails and send summary",
+                "trigger": {
+                    "type": "new_email",
+                    "conditions": {}
+                },
+                "ai_step": {
+                    "type": "classify_text",
+                    "model": "gpt-3.5-turbo"
+                },
+                "action": {
+                    "type": "send_email",
+                    "config": {"recipient": "admin@example.com"}
+                }
+            }
+        }
 
-    elif "api" in prompt:
-        workflow["action"] = "call_api"
 
-    elif "save" in prompt:
-        workflow["action"] = "save_database"
+class WorkflowResponse(BaseModel):
+    """Response model for workflow operations"""
+    message: str
+    workflow: Optional[Workflow] = None
+    data: Optional[dict] = None
 
-    else:
-        workflow["action"] = "log_data"
 
-    return workflow
+class PromptRequest(BaseModel):
+    """Request model for prompt generation"""
+    prompt: str = Field(..., description="Natural language prompt")
+    
+    
+class PromptResponse(BaseModel):
+    """Response model for generated workflow from prompt"""
+    prompt: str
+    workflow: Workflow
